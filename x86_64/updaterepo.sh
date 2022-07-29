@@ -37,7 +37,7 @@ repo-add exodia-repo.db.tar.gz *.pkg.tar.zst
 # remove syslink to avoid any issues #
 echo ""
 echo -e "\e[0;35m######################################### \e[0m"
-echo -e "\e[0;35m#  removing syslink to avoid any issues # \e[0m"
+echo -e "\e[0;35m#  removed syslink to avoid any issues! # \e[0m"
 echo -e "\e[0;35m######################################### \e[0m"
 
 rm exodia-repo.db exodia-repo.files
