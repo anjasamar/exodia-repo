@@ -16,13 +16,15 @@ echo -e "\e[0;35m#################################### \e[0m"
 
 # old files to be removed! #
 declare -a OLD_DATABASE=(
-	exodia-repo.db
-	exodia-repo.db.tar.gz
-	exodia-repo.db.tar.gz.old
-	exodia-repo.files
-	exodia-repo.files.tar.gz
-	exodia-repo.files.tar.gz.old
-	)
+						 
+						 'exodia-repo.db'
+						 'exodia-repo.db.tar.gz'
+						 'exodia-repo.db.tar.gz.old'
+						 'exodia-repo.files'
+						 'exodia-repo.files.tar.gz'
+						 'exodia-repo.files.tar.gz.old'
+						
+						)
 
 # remove old files #
 for i in ${OLD_DATABASE[@]}; do
